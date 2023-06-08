@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(../gambar/bg.jpg);
+    background-size: cover;
+    background-position: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.edit {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.conter {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.conter form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conter textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.conter input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conter input[type="submit"]:hover {
+    background-color: #e91e63;
+}
