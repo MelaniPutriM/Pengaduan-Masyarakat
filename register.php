@@ -16,7 +16,7 @@
         <label for="">Password</label>
         <input type="password" name="password" placeholder="Password" required><br>
         <label for="">Nama Lengkap</label>
-        <input type="text" name="name" placeholder="Nama Lengkap" required><br>
+        <input type="text" name="namalengkap" placeholder="Nama Lengkap" required><br>
         <button type="submit">Register</button>
         <?php
         if (isset($_GET['error'])) {

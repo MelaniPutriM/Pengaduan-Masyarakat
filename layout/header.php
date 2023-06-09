@@ -54,7 +54,6 @@
         <div class="top-nav">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="create.php">Buat Pengaduan</a></li>
             <li><a href="complaints.php">Daftar Pengaduan</a></li>
             <li><a href="logout.php">Logout</a></li>
         </ul>

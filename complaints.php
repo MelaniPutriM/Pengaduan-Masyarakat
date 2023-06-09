@@ -19,12 +19,10 @@
             <th>Tindakan</th>
         </tr>
         <?php
-            // Koneksi ke database
             require_once "db.php";
             $db = new DB();
             $db->connect();
 
-            // Mendapatkan data pengaduan
             $query = mysqli_query($db->con, "SELECT * FROM complaints");
             $no = 1;
             while ($data = mysqli_fetch_assoc($query)) {
